@@ -1,9 +1,31 @@
 aid: nolla-health
 name: Nolla Health
-description: Nolla Health is a company surfaced as a portfolio company of general-catalyst and added to
-  the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: >-
+  Nolla Health is a Norway-born, AI-powered telehealth and dermatology company
+  that entered the U.S. market with a $4.5M seed round led by General Catalyst
+  and set up its headquarters in New York City. After treating more than 50,000
+  patients in Europe and becoming one of Norway's top-five medical apps, Nolla
+  launched an AI-guided skin and acne care platform across 40+ U.S. states. The
+  service pairs proprietary AI symptom assessment with clinician-in-the-loop
+  oversight: patients complete a guided chat, a licensed U.S. medical provider
+  reviews and approves every diagnosis and prescription, and topical
+  medications are shipped directly to the patient. Nolla operates as a
+  consumer-facing product (per-consultation and a monthly subscription) rather
+  than an API provider, and publicly states HIPAA and GDPR compliance.
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://www.nollahealth.com/og-image.jpg
 url: https://raw.githubusercontent.com/api-evangelist/nolla-health/refs/heads/main/apis.yml
+humanURL: https://www.nollahealth.com
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
@@ -12,12 +34,46 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Health
+- Healthcare
+- Telehealth
+- Telemedicine
+- Dermatology
+- Digital Health
+- Artificial Intelligence
+- Consumer Health
 apis: []
+common:
+- type: Website
+  url: https://www.nollahealth.com
+- type: Blog
+  url: https://www.nollahealth.com/blog
+- type: HelpCenter
+  url: https://www.nollahealth.com/knowledge
+- type: Support
+  url: https://www.nollahealth.com/faq
+- type: Login
+  url: https://www.nollahealth.com/profile
+- type: TermsOfService
+  url: https://www.nollahealth.com/terms
+- type: PrivacyPolicy
+  url: https://www.nollahealth.com/privacy
+- type: Compliance
+  url: https://www.nollahealth.com
+- type: DomainSecurity
+  url: security/nolla-health-domain-security.yml
+- type: Conformance
+  url: conformance/nolla-health-conformance.yml
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 2
+  pass: local-v1

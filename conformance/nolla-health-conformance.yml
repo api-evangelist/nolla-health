@@ -1,0 +1,25 @@
+generated: '2026-07-20'
+method: searched
+source: https://www.nollahealth.com
+notes: >-
+  Nolla Health is a consumer telehealth/dermatology product with no public API
+  surface, so no API-level (OAuth2/OIDC/FHIR/RFC9457/pagination) conformance
+  could be derived. The standards below are the compliance postures the company
+  publicly displays on its homepage (HIPAA and GDPR compliance badges).
+standards:
+- id: hipaa
+  conforms: true
+  evidence: HIPAA compliance badge displayed on nollahealth.com homepage; data labeled "HIPAA · Private"
+- id: gdpr
+  conforms: true
+  evidence: GDPR compliance badge displayed on nollahealth.com homepage
+- id: soc2
+  conforms: false
+  evidence: no SOC 2 attestation published
+- id: fhir-r4
+  conforms: false
+- id: oauth2
+  conforms: false
+  evidence: no public API / securitySchemes
+- id: rfc9457-problem-details
+  conforms: false

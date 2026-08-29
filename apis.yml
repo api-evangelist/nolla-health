@@ -12,6 +12,17 @@ description: >-
   medications are shipped directly to the patient. Nolla operates as a
   consumer-facing product (per-consultation and a monthly subscription) rather
   than an API provider, and publicly states HIPAA and GDPR compliance.
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
